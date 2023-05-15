@@ -1,9 +1,9 @@
 {
-  "name": "lee-to/php-tochka-api-v2-sdk",
+  "name": "stdex/php-tochka-api-v2-sdk",
   "description": "Tochka bank API v2 client for PHP",
   "keywords": ["tochka", "api", "v2"],
   "type": "library",
-  "homepage": "https://github.com/lee-to/php-tochka-api-v2-sdk",
+  "homepage": "https://github.com/stdex/php-tochka-api-v2-sdk",
   "license": "MIT",
   "authors": [
     {
