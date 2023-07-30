@@ -28,7 +28,7 @@ class ClientTest extends TestCase
 
         $this->assertEquals("", $client->getAccessToken());
 
-        $response = $client->getAdapter()->request("GET", "https://ya.ru");
+        $response = $client->getAdapter()->request("GET", "https://www.google.com");
 
         $this->assertEquals(200, $response->getCode());
 
