@@ -9,7 +9,7 @@ PHP SDK для Точка банк API версия 2
 Tochka API client for PHP can be installed with [Composer](https://getcomposer.org/). Run this command:
 
 ```sh
-composer require lee-to/php-tochka-api-v2-sdk
+composer require stdex/php-tochka-api-v2-sdk
 ```
 
 ## Использование
