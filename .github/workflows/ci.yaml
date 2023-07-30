@@ -51,4 +51,4 @@ jobs:
           composer update --no-interaction --prefer-dist --no-progress ${{ matrix.composer-flags }}
       - name: Run tests
         run: |
-          php vendor/bin/phpunit --coverage-text --exclude-group api-call
+          php vendor/bin/phpunit tests --coverage-text --exclude-group api-call
