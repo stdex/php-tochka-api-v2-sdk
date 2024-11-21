@@ -81,6 +81,11 @@ final class Client
         "ReadCustomerData",
         "ReadSBPData",
         "EditSBPData",
+        "ReadCardData",
+        "EditCardData",
+        "EditCardState",
+        "ReadCardLimits",
+        "EditCardLimits",
         "CreatePaymentForSign",
         "CreatePaymentOrder"
     ];
