@@ -157,7 +157,7 @@ class Api
         $response = $this->getAdapter()->request(
             $method,
             $url,
-            json_encode($data),
+            $data ? json_encode($data) : $data,
             $this->getHeaders()
         );
 
