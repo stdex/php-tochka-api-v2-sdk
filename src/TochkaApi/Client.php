@@ -82,7 +82,8 @@ final class Client
         "ReadSBPData",
         "EditSBPData",
         "CreatePaymentForSign",
-        "CreatePaymentOrder"
+        "CreatePaymentOrder",
+        "ManageWebhookData"
     ];
 
     public function __construct(string $client_id, string $client_secret, string $redirect_uri, HttpClientInterface $adapter, bool $enableSandbox = false)
@@ -167,7 +168,7 @@ final class Client
     {
         return static::HOST . "/connect/token";
     }
-    
+
     public function generateAuthorizeUrlByParams(string $consentId, ?string $state = null): string
     {
         $data = [
